@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Watermelon",
+        "price": "300",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/KNRZGRK/Watermelon.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Mango",
+        "price": "200",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/ZYXKN3b/mango.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Jackfruit",
+        "price": "150",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/Vt04j2x/Jackfruit.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Graps",
+        "price": "280",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/SNs0qT6/graps.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Dragon",
+        "price": "450",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/1z0L5Ly/dragon.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Date",
+        "price": "500",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://i.ibb.co/SrFXvJD/date.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Apple",
+        "price": "160",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://i.ibb.co/bPPgMFS/apple.jpg"
+    }
+]
