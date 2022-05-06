@@ -1,12 +1,19 @@
 import React from 'react';
 import Bannar from '../Bannar/Bannar';
-import Services from '../Products/Products';
+import Products from '../Products/Products';
+import Story from '../Story/Story';
+import Suport from '../Suport/Suport';
+
 
 const Home = () => {
     return (
         <div>
             <Bannar></Bannar>
-            <Services></Services>
+            <Products></Products>
+            <Story></Story>
+            <Suport></Suport>
+
+
 
         </div>
     );

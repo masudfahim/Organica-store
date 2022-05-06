@@ -7,6 +7,8 @@ import Home from './Components/Pages/Home/Home/Home';
 import Product from './Components/Pages/Home/Product/Product';
 import Products from './Components/Pages/Home/Products/Products';
 import ProductDetail from './Components/Pages/Home/ProductsDetail/ProductDetail';
+import Story from './Components/Pages/Home/Story/Story';
+import Suport from './Components/Pages/Home/Suport/Suport';
 import Login from './Components/Pages/Login/Login/Login';
 import Register from './Components/Pages/Login/Register/Register';
 import SocialLogin from './Components/Pages/Login/SocialLogin/SocialLogin';
@@ -35,6 +37,8 @@ function App() {
         <Route path='/sociallogin' element={<SocialLogin></SocialLogin>}></Route>
         <Route path='/loading' element={<Loading></Loading>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
+        <Route path='/story' element={<Story></Story>}></Route>
+        <Route path='/suport' element={<Suport></Suport>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
 
       </Routes>
