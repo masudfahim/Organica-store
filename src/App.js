@@ -1,6 +1,7 @@
 
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Blog from './Components/Pages/Blogs/Blog';
 import Bannar from './Components/Pages/Home/Bannar/Bannar';
 import Home from './Components/Pages/Home/Home/Home';
 import Product from './Components/Pages/Home/Product/Product';
@@ -12,6 +13,7 @@ import SocialLogin from './Components/Pages/Login/SocialLogin/SocialLogin';
 import Footer from './Components/Shared/Footer/Footer';
 import Header from './Components/Shared/Header/Header';
 import Loading from './Components/Shared/Loading/Loading';
+import NotFound from './Components/Shared/NotFound/NotFound';
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/sociallogin' element={<SocialLogin></SocialLogin>}></Route>
         <Route path='/loading' element={<Loading></Loading>}></Route>
+        <Route path='/blog' element={<Blog></Blog>}></Route>
+        <Route path="*" element={<NotFound></NotFound>}></Route>
 
       </Routes>
       <Footer></Footer>
