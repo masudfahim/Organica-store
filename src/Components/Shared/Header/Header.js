@@ -15,7 +15,7 @@ const Header = () => {
 
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
                 <Container>
                     <Navbar.Brand as={Link} to='/'>Organica Store</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -27,7 +27,14 @@ const Header = () => {
 
                         </Nav>
                         <Nav>
-                            <Nav.Link as={Link} to="about">About</Nav.Link>
+
+                            {
+                                user && <>
+                                    <Nav.Link as={Link} to="/addservice">Add Product</Nav.Link>
+                                    <Nav.Link as={Link} to="/manage">Manage</Nav.Link>
+                                    <Nav.Link as={Link} to="/myitems">My Item</Nav.Link>
+                                </>
+                            }
                             {
                                 user ?
                                     <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>sign out</button>

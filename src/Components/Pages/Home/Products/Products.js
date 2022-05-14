@@ -7,7 +7,7 @@ const Products = () => {
     const [Products, setProducts] = useState([]);
 
     useEffect(() => {
-        fetch('services.json')
+        fetch('https://secure-forest-48257.herokuapp.com/service')
             .then(res => res.json())
             .then(data => setProducts(data));
     }, [])
@@ -18,7 +18,7 @@ const Products = () => {
                 <h1 className='text-primary text-center mt-5'> Our Products</h1>
                 <div className="services-container">
                     {
-                        Products.slice(0, 6).map(service => <Product
+                        Products.map(service => <Product
                             key={service._id}
                             service={service}
                         >

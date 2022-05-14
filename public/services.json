@@ -2,6 +2,8 @@
     {
         "id": 1,
         "name": "Watermelon",
+        "quantity": "8",
+        "supplier name": "Fahim",
         "price": "300",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
         "img": "https://i.ibb.co/KNRZGRK/Watermelon.jpg"
@@ -9,6 +11,8 @@
     {
         "id": 2,
         "name": "Mango",
+        "quantity": "10",
+        "supplier name": "Emran",
         "price": "200",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
         "img": "https://i.ibb.co/ZYXKN3b/mango.jpg"
@@ -16,6 +20,8 @@
     {
         "id": 3,
         "name": "Jackfruit",
+        "quantity": "7",
+        "supplier name": "juvaraj",
         "price": "150",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
         "img": "https://i.ibb.co/Vt04j2x/Jackfruit.jpg"
@@ -23,6 +29,8 @@
     {
         "id": 4,
         "name": "Graps",
+        "quantity": "10",
+        "supplier name": "Rafi",
         "price": "280",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
         "img": "https://i.ibb.co/SNs0qT6/graps.jpg"
@@ -30,6 +38,8 @@
     {
         "id": 5,
         "name": "Dragon",
+        "quantity": "12",
+        "supplier name": "Minhaj",
         "price": "450",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
         "img": "https://i.ibb.co/1z0L5Ly/dragon.jpg"
@@ -37,6 +47,8 @@
     {
         "id": 6,
         "name": "Date",
+        "quantity": "14",
+        "supplier name": "Tamim",
         "price": "500",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
         "img": "https://i.ibb.co/SrFXvJD/date.jpg"
@@ -44,6 +56,8 @@
     {
         "id": 7,
         "name": "Apple",
+        "quantity": "15",
+        "supplier name": "MAs",
         "price": "160",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
         "img": "https://i.ibb.co/bPPgMFS/apple.jpg"
